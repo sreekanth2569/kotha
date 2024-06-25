@@ -60,9 +60,9 @@ const AndomTextGenerator = () => {
 
 {
 isRunning? (
-<button style={{color:"white", backgroundColor:"blue", marginLeft:"5px"}} onClick={stopInterval}>stop</button>
+<button style={{color:"green", backgroundColor:"green", marginLeft:"5px"}} onClick={stopInterval}>stop</button>
 ) : (
-    <button style={{color:"pink", backgroundColor:"yellow", marginLeft:"5px", border:"2px solid black"}} onClick={startInterval}>start</button>
+    <button style={{color:"black", backgroundColor:"black", marginLeft:"5px", border:"2px solid black"}} onClick={startInterval}>start</button>
 
 )
 
