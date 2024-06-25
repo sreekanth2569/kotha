@@ -11,7 +11,7 @@ function App() {
 <RandomTextGenerator />
 <AndomTextGenerator />
     </div>
-  );
+  );   
 }
 
 export default App;
